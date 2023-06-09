@@ -1,0 +1,11 @@
+#connected {
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    background-color: #1e511e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}

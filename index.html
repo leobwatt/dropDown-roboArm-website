@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Robot Arm</title>
+    </head>
+    <body>
+        <button onclick="connect()">Connect</button>
+        <div id="connected">Connected ✓</div>
+
+        <br>
+
+        <label for="elbowAngles">Elbow Angle:</label> 
+            <select name="elbowAngles" id="elbowAngles"> 
+                <option value="a">10°</option> 
+                <option value="b">45°</option> 
+                <option value="c">90°</option> 
+                <option value="d">135°</option> 
+                <option value="e">180°</option> 
+            </select>
+        <button onclick="sendAngleElbow()">Send Angle</button>
+
+        <br>
+
+        <label for="shoulderAngles">Shoulder Angle:</label> 
+            <select name="shoulderAngles" id="shoulderAngles"> 
+                <option value="f">70°</option> 
+                <option value="g">90°</option> 
+                <option value="h">110°</option> 
+            </select>
+        <button onclick="sendAngleShoulder()">Send Angle</button>
+
+        <br>
+
+        <label for="baseAngles">Base Angle:</label> 
+            <select name="baseAngles" id="baseAngles"> 
+                <option value="i">10°</option> 
+                <option value="j">45</option> 
+                <option value="k">90°</option> 
+                <option value="l">135°</option> 
+                <option value="m">180°</option> 
+            </select>
+        <button onclick="sendAngleBase()">Send Angle</button>
+
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </body>
+</html>
