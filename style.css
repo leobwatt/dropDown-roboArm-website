@@ -1,11 +1,46 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #connected {
     color: green;
     font-weight: bold;
 }
 
-button {
-    background-color: #1e511e;
+#connectButton {
+    background-color: #499349;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
+    border-color: #30aa008f;
     border-radius: 4px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    margin-left: 13px;
+}
+
+hr {
+    border: 2px dashed #1b521b;
+    margin-right: 1200px;
+    margin-top: none;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #256725;
+    color: white;
+    padding: 5px 10px;
+    border-color: #30aa008f;
+    border-radius: 4px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    background-color: #d7d4d4;;
+    border-radius: 3px;
+    border-color: #9d9d9d;
 }

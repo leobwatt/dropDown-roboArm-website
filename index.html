@@ -4,9 +4,15 @@
         <title>Test Robot Arm</title>
     </head>
     <body>
-        <button onclick="connect()">Connect</button>
+
+        <h2>Controlling A Robotic Arm</h2>
+
+        <hr>
+
+        <button onclick="connect()" id="connectButton">Connect</button>
         <div id="connected">Connected ✓</div>
 
+        <br>
         <br>
 
         <label for="elbowAngles">Elbow Angle:</label> 
@@ -20,6 +26,7 @@
         <button onclick="sendAngleElbow()">Send Angle</button>
 
         <br>
+        <br>
 
         <label for="shoulderAngles">Shoulder Angle:</label> 
             <select name="shoulderAngles" id="shoulderAngles"> 
@@ -29,6 +36,7 @@
             </select>
         <button onclick="sendAngleShoulder()">Send Angle</button>
 
+        <br>
         <br>
 
         <label for="baseAngles">Base Angle:</label> 
